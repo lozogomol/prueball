@@ -1,5 +1,5 @@
 K = int(input())
-
+"goku"
 
 plata_total = 0
 for dia in range(1, K + 1):
@@ -13,4 +13,4 @@ for dia in range(2, K + 1, 2):
 
 
 desbalance = abs(oro_total - plata_total)
-{oro_total} - {plata_total}| = {desbalance}")
+print(f"{oro_total} - {plata_total} = {desbalance}")
